@@ -1,0 +1,51 @@
+
+body{
+	background:  lightyellow;
+}
+
+/*Стили заголовков*/
+h1{
+	color: #000000;
+	font-size: 25px;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+h2{
+	color: #999966;
+	font-size: 20px;
+	margin-bottom:20px;
+}
+
+h3{
+	color: #FFFFCC ;
+	font-size: 15px;
+	margin-bottom:0px;
+	text-shadow: 1px 1px 2px black, 0 0 1em #663300;
+}
+
+h4{
+	color: darkred;
+	font-size: 40px;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}	
+
+/*Стиль картинки*/
+.rightimg{
+	width:200px;
+	height:200px;
+	float:right;/*Выравнивание картинки по правому краю*/
+	margin:0px 40px 5px 0px;/*Отступы вокруг картинки*/
+}
+
+/*Стиль футера сайта*/
+footer {
+	position: fixed ; /* Фиксированное положение *//*fixed*/
+	left: 0; bottom: 0; /* Левый нижний угол */
+	padding: 5px; /* Поля вокруг текста */
+	background: #990000; /* Цвет фона */
+	color: #FFFFFF; /* Цвет текста */
+	width: 100%; /* Ширина слоя */
+}
